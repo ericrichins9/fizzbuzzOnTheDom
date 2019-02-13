@@ -1,0 +1,27 @@
+#fizzbuzz-list{
+    display:flex;
+    margin: 10px; 
+    flex-wrap: wrap;   
+    justify-content:space-around;
+    text-align:center;
+}
+
+.number {
+    display: flex;
+    margin: 10px;
+    font-size: 36px;
+    flex-wrap: wrap;
+    border-radius: 160px;
+    background-color: blue;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 40px;
+    text-align:center;
+    align-content: center;
+}
+
+.number:hover{
+    background-color: blue;
+    transform: scale(1);
+}
